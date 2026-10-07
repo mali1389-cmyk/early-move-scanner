@@ -1,5 +1,5 @@
-FROM nginx:1.27-alpine
+FROM ghcr.io/static-web-server/static-web-server:2-alpine
 
-COPY . /usr/share/nginx/html
+COPY . /public
 
 EXPOSE 80
